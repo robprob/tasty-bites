@@ -61,7 +61,7 @@ For these reasons, I will not opt for imputation by a constant, whether by singl
 ![image](https://github.com/user-attachments/assets/5beb64d5-d330-40bd-9fe5-c6e5ba3aa561)
 ![image](https://github.com/user-attachments/assets/5b031003-2586-4c87-8847-c1698854a887)
 
-# Model Development
+## Model Development
 Predicting whether a recipe will lead to `high_traffic` is a binary classification, supervised learning problem.
 
 Evaluation metrics
@@ -78,7 +78,7 @@ The customer asked if we could "correctly predict high traffic recipes 80% of th
 
 This is a helpful KPI to evaluate current and future iterations of this model. While keeping other metrics balanced, improving recall will reduce the proportion of false negative results and help to more consistently identify recipes that will increase website traffic and subscription purchases.
 
-# Recommendations
+## Recommendations
 This model exceeds the requests of the customer, and can be deployed immediately to help identify which recipes will result in `high_traffic` when featured. This should already provide significant benefit through featuring daily recipes that more consistently cause `high_traffic` and a resulting increase in subscription purchases. However, while testing this model in-field, it would be most beneficial to continue improving this model by asking some questions and gathering more data. Below is my plan moving forward:
 
 Deployment
